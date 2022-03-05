@@ -1,0 +1,164 @@
+/*wylacza scrollowanie, zeby strona sie nie gibala jak scrollujesz iframy*/
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+* {margin:0; padding: 0;}
+body {text-align: center}
+
+.imdesc {display: inline-block; vertical-align: middle; position: relative}
+.imdesc img {vertical-align: middle;}
+.imdesc p {text-align: center; background: #fc0;}
+
+.link {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top:3%;
+    border: none;
+    color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+    width:90%;
+}
+
+.link:hover {
+    color:white;
+}
+
+.link_black {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top:3%;
+    border: none;
+    color:rgb(30,30,30);
+    font-family: 'Source Sans Pro', sans-serif;
+    width:90%;
+}
+.link_black:hover {
+    color:rgb(30,30,30);
+}
+
+.pasek1{
+    position:absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 6.9%;
+}
+
+.pasek2{
+    position:absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 28.4%;
+}
+
+.pasek3{
+    position:absolute;
+    transform: translate(-100%,-50%);
+    top: 38%;
+    left: 37.5%;
+}
+
+.pasek4{
+    position:absolute;
+    transform: translate(0%,-50%);
+    top: 38%;
+    left: 92.1%;
+}
+
+.pasek5{
+    position:absolute;
+    transform: translate(-50%,0%);
+    top: 65.7%;
+    left: 64.8%;    
+}
+
+.bg {
+    min-height:100vh;
+    margin:0;
+}
+
+
+.link {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top:3%;
+    border: none;
+    color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+    width:90%;
+}
+
+.link:hover {
+    color:white;
+}
+
+.link_black {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top:3%;
+    border: none;
+    color:rgb(30,30,30);
+    font-family: 'Source Sans Pro', sans-serif;
+    width:90%;
+}
+.link_black:hover {
+    color:rgb(30,30,30);
+}
+
+.bg-color1 {
+    background-color: rgb(112,3,37);
+}
+
+.bg-color2 {
+    background-color: rgb(238,232,229);
+}
+
+.bg-color3 {
+    background-color: rgb(29,114,150);
+}
+
+bg-color4 {
+    background-color: white;
+}
+
+
+/*NAVIGATION*/
+
+
+
+/*
+body.fp-viewing-0-slide1 .fp-slidesNav ul li a span,
+#fp-nav ul li a span{    
+    color:red !important;
+}
+*/
+
+ 
+body.fp-viewing-0-slide1 .fp-slidesNav ul li a span, 
+body.fp-viewing-0-slide2 .fp-slidesNav ul li a span, 
+body.fp-viewing-0-slide4 .fp-slidesNav ul li a span{    
+    background-color:white !important;
+    
+}
+
+
+
+body.fp-viewing-0-slide3 .fp-controlArrow.fp-prev {    
+    border-color: transparent rgb(64, 64, 64) transparent transparent;
+}
+body.fp-viewing-0-slide3 .fp-controlArrow.fp-next {    
+    border-color: transparent transparent transparent rgb(64, 64, 64);
+}
+
+body.fp-viewing-0-slide5 .fp-controlArrow.fp-prev {    
+    border-color: transparent rgb(64, 64, 64) transparent transparent !important;
+}
+body.fp-viewing-0-slide5 .fp-controlArrow.fp-next {    
+    border-color: transparent transparent transparent rgb(64, 64, 64) !important;
+}
+
+
+
+
